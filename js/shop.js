@@ -40,6 +40,7 @@ fetch(`${getRestApiData().url}products?consumer_key=${getRestApiData().clientKey
 
         }
     })
+    .catch(()=> errorBox.style.display = "block");
 
  
 
